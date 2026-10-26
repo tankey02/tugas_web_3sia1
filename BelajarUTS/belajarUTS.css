@@ -1,0 +1,210 @@
+.kontainer {
+    background-color: paleturquoise;
+    width: 800px;
+    height: 850px;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    width: 800px;
+    height: 150px;
+    padding: 2px 0 0 0;
+
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 24px 0 0 0;
+}
+
+.red {
+    color: red;
+}
+
+.slogan {
+    color: lightgrey;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.garis {
+    border: none;
+    /* hapus gaya bawaan */
+    height: 4px;
+    /* tebal garis */
+    background-color: red;
+    /* warna garis */
+    margin: 0;
+    /* hilangkan jarak atas-bawah */
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.linka {
+    color: black;
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.kiri {
+    width: 300px;
+    height: 570px;
+    background-color: #f4f3f0;
+    float: left;
+    box-sizing: border-box;
+    /* tinggi tetap 550px walau ada padding */
+    padding: 25px 20px 150px 20px;
+    /* mendorong isi turun ke area tengah */
+}
+
+.kotak1 label {
+    display: block;
+    margin: 14px 0 0 0;
+    font-weight: bold;
+}
+
+.kotak1 {
+    background-color: white;
+    border: 1px solid #dcdad5;
+    /* garis tepi tipis */
+    border-radius: 12px;
+    /* sudut membulat */
+    padding: 5px 40px 40px 40px;
+}
+
+.kotak1 button {
+    text-align: center;
+    margin: 0 16px;
+}
+
+.kotak2 {
+    background-color: white;
+    border: 1px solid #dcdad5;
+    /* garis tepi tipis */
+    border-radius: 12px;
+    /* sudut membulat */
+    padding: 0 20px 0 5px;
+    margin-top: 20px;
+}
+
+.kanan {
+    width: 500px;
+    height: 570px;
+    background-color: #f4f3f0;
+    float: left;
+    text-align: justify;
+}
+
+.kanan h2 {
+    text-align: center;
+
+}
+
+.garis2 {
+    border: none;
+    /* hapus gaya bawaan */
+    height: 1px;
+    /* tebal garis */
+    background-color: red;
+    /* warna garis */
+    margin: 5px 10px 0 25px;
+    /* hilangkan jarak atas-bawah */
+}
+
+img {
+    width: 480px;
+    height: 190px;
+    margin: 0 20px 0 0;
+
+    padding: 0 0 0 3px;
+}
+
+.berita a {
+    text-decoration: none;
+    color: black;
+}
+
+.angka {
+    color: red;
+    font-weight: bold;
+}
+
+.angka span {
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.kanan h2 {
+    text-align: left;
+    padding: 3px 3px 0 0;
+}
+
+.inter {
+    color: red;
+    font-weight: bold;
+}
+
+.isi {
+    background-color: white;
+    border: 1px solid #dcdad5;
+    /* garis tepi tipis */
+    border-radius: 0 0 12px 12px;
+    /* sudut membulat */
+    padding: 5px 20px 5px 20px;
+    margin: 0 16px 0 3px;
+}
+
+.isi h3 {
+    text-align: justify;
+}
+
+.oct {
+    color: gray;
+}
+
+.footer {
+    width: 800px;
+    height: 80px;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkaw {
+    color: lightgray;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.hubungi {
+    color: white;
+    margin: 0 0 0 8px;
+}

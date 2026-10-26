@@ -1,0 +1,139 @@
+.kontainer {
+    background-color: paleturquoise;
+    width: 800px;
+    height: 1430px;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    width: 800px;
+    height: 150px;
+    padding: 2px 0 0 0;
+
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 24px 0 0 0;
+}
+
+.red {
+    color: red;
+}
+
+.slogan {
+    color: lightgrey;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.garis {
+    border: none;
+    /* hapus gaya bawaan */
+    height: 4px;
+    /* tebal garis */
+    background-color: red;
+    /* warna garis */
+    margin: 0;
+    /* hilangkan jarak atas-bawah */
+}
+
+.menu {
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.linka {
+    color: black;
+    text-decoration: none;
+    padding: 0 35px;
+}
+
+.menu a:hover {
+    color: red;
+}
+
+.kirikanan {
+    width: 800px;
+    height: 1150px;
+    background-color: #f4f3f0;
+    float: left;
+    box-sizing: border-box;
+    /* tinggi tetap 550px walau ada padding */
+    padding: 5px 20px 150px 20px;
+    /* mendorong isi turun ke area tengah */
+}
+
+.img1 {
+    width: 730px;
+    height: 200px;
+    margin: 0 0 0 15px;
+}
+
+.isi {
+    background-color: white;
+    border: 1px solid #dcdad5;
+    /* garis tepi tipis */
+    border-radius: 12px;
+    /* sudut membulat */
+    padding: 5px 20px 5px 20px;
+    margin: 5px 16px 0 15px;
+    text-align: justify;
+
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    padding: none;
+}
+
+.img2 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px 5px 0 0;
+}
+
+
+.judul {
+    text-align: center;
+}
+
+
+.footer {
+    width: 800px;
+    height: 80px;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkaw {
+    color: lightgray;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.hubungi {
+    color: white;
+    margin: 0 0 0 8px;
+}
